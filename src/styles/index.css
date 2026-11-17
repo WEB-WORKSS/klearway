@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { font-feature-settings: 'ss02'; }
+  ::selection { background: #fbebd0; color: #0f1d1c; }
+  :focus-visible { outline: 2px solid #c9831f; outline-offset: 2px; border-radius: 4px; }
+  h1, h2, h3 { letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+}
+
+@layer components {
+  .page { @apply mx-auto w-full max-w-page px-5 sm:px-8; }
+  .eyebrow { @apply font-mono text-[0.72rem] font-medium uppercase tracking-[0.16em] text-tide; }
+  .eyebrow-dark { @apply font-mono text-[0.72rem] font-medium uppercase tracking-[0.16em] text-signal; }
+  .h2 { @apply text-3xl font-semibold leading-[1.1] sm:text-[2.6rem]; }
+  .lede { @apply text-lg leading-relaxed text-ink-600; }
+  .sheet { @apply rounded-xl border border-paper-300 bg-paper-50 shadow-sheet; }
+  .ledger {
+    background-image: linear-gradient(to bottom, rgba(15, 29, 28, 0.055) 1px, transparent 1px);
+    background-size: 100% 28px;
+  }
+  .grid-dots {
+    background-image: radial-gradient(rgba(15, 29, 28, 0.12) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+  .perforated { position: relative; }
+  .perforated::after {
+    content: ''; position: absolute; left: 0; right: 0; bottom: -6px; height: 12px;
+    background: radial-gradient(circle at 6px 6px, #f5f1e8 4px, transparent 4.5px) repeat-x;
+    background-size: 14px 12px;
+  }
+  .stamp { @apply inline-flex items-center gap-1.5 rounded-[4px] border px-2 py-0.5 font-mono text-[0.68rem] font-medium uppercase tracking-wider; }
+  .input {
+    @apply block w-full rounded-lg border border-paper-300 bg-white px-3.5 py-2.5 text-[0.95rem] text-ink placeholder:text-ink-400
+      transition focus:border-tide focus:outline-none focus:ring-2 focus:ring-tide/25;
+  }
+  .input[aria-invalid='true'] { @apply border-flag ring-1 ring-flag/30; }
+  .label { @apply mb-1.5 block text-sm font-medium text-ink-700; }
+}
+
+.reveal-pending { opacity: 0; transform: translateY(14px); }
+[data-reveal] { transition: opacity 0.6s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal-pending { opacity: 1; transform: none; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+@keyframes scan { 0% { transform: translateY(-10%); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateY(1100%); opacity: 0; } }
+.scan-line { animation: scan 3.6s ease-in-out infinite; }
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 rgba(184, 64, 42, 0.35); } 100% { box-shadow: 0 0 0 10px rgba(184, 64, 42, 0); } }
+.pulse-flag { animation: pulse-ring 1.8s ease-out infinite; }

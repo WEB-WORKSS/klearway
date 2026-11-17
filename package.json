@@ -1,0 +1,46 @@
+{
+  "name": "klearway",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Klearway: shipment document checks and status updates for freight forwarders and clearing agents.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c yellow,cyan \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:web": "vite",
+    "dev:api": "node --watch backend/server.js",
+    "build": "npm run build:client && npm run build:ssr && node scripts/prerender.js",
+    "build:client": "vite build",
+    "build:ssr": "vite build --ssr src/entry-server.jsx --outDir dist-ssr",
+    "start": "node backend/server.js",
+    "samples": "node scripts/generate-samples.js",
+    "assets": "node scripts/render-assets.js",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1170.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "express": "^4.21.1",
+    "lucide-react": "^1.74.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^10.6.0",
+    "pdfjs-dist": "^4.8.69",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.6.2",
+    "concurrently": "^9.2.5",
+    "opentype.js": "^2.0.0",
+    "pdfkit": "^0.20.2",
+    "postcss": "^8.5.33",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.4.11"
+  }
+}

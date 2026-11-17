@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-NG">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0F1D1C" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!--app-head-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.klearway.site/#org",
+            "name": "Klearway",
+            "url": "https://www.klearway.site/",
+            "logo": "https://www.klearway.site/logo-512.png",
+            "email": "olawale@klearway.site",
+            "foundingDate": "2026",
+            "founder": { "@type": "Person", "name": "Muhammed Ogunlakin", "jobTitle": "CEO", "sameAs": "https://www.linkedin.com/in/ogunlakin-mohammed/" },
+            "sameAs": ["https://www.linkedin.com/company/klearway/"]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Klearway",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Shipment document checks and status updates for freight forwarders and clearing agents. In development (MVP).",
+            "publisher": { "@id": "https://www.klearway.site/#org" }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-paper text-ink antialiased">
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/entry-client.jsx"></script>
+  </body>
+</html>
