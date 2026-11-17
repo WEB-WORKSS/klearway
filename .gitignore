@@ -5,3 +5,6 @@ dist-ssr
 backend/data/*
 !backend/data/.gitkeep
 *.zip
+
+.vercel
+.env*
