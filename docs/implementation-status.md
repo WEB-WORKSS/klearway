@@ -39,7 +39,7 @@
 |---|---|
 | Team size | Only the founder was supplied. The website shows only the founder; LinkedIn "2-10" is a default to **verify**. |
 | Founder name spelling | The site uses "Muhammed Ogunlakin" as supplied. The LinkedIn URL slug is "ogunlakin-mohammed". **Verify** the preferred spelling. |
-| Business email | `olawale@klearway.site` as supplied. Confirm the mailbox exists and who reads it, since the name differs from the founder's. |
+| Business email | `ogunlakin@klearway.site`. Confirm the mailbox exists and is monitored. |
 | Headquarters / address | Not supplied, so not published. |
 | WhatsApp contact number | Not supplied, so no WhatsApp click-to-chat link for Klearway itself (PRD US-012 is partially met: email links only). |
 | Pricing | Not confirmed, so "Pricing on request" (PRD Q4). |

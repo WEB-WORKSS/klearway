@@ -1,7 +1,7 @@
 # Klearway
 
 Shipment document checks and status updates for freight forwarders and clearing agents.
-Website: https://www.klearway.site · Contact: olawale@klearway.site
+Website: https://www.klearway.site · Contact: ogunlakin@klearway.site
 
 This repository contains:
 

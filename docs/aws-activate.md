@@ -6,7 +6,7 @@ These answers are drawn from the same business record as the website and the Lin
 |---|---|
 | Company name | Klearway |
 | Website | https://www.klearway.site |
-| Company email | olawale@klearway.site (**confirm** the mailbox is active and use the founder's own account details where the form asks for them) |
+| Company email | ogunlakin@klearway.site (**confirm** the mailbox is active and use the founder's own account details where the form asks for them) |
 | Founded | 2026 |
 | Founder | Muhammed Ogunlakin, Founder & CEO, https://www.linkedin.com/in/ogunlakin-mohammed/ |
 | Company LinkedIn | https://www.linkedin.com/company/klearway/ |

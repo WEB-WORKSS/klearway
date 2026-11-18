@@ -3,7 +3,7 @@ export const company = {
   name: 'Klearway',
   domain: 'klearway.site',
   url: 'https://www.klearway.site',
-  email: 'olawale@klearway.site',
+  email: 'ogunlakin@klearway.site',
   founded: 2026,
   type: 'Privately held',
   stage: 'MVP in development',

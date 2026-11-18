@@ -2,7 +2,7 @@
 
 ## Facts to confirm (blocking publication of the matching text)
 - [ ] Founder name spelling (Muhammed or Mohammed) and title
-- [ ] `olawale@klearway.site` mailbox exists, is monitored, and who answers it
+- [ ] `ogunlakin@klearway.site` mailbox exists, is monitored, and who answers it
 - [ ] Team size for LinkedIn and AWS Activate
 - [ ] Headquarters or registered address (optional; currently not shown)
 - [ ] Company WhatsApp number, if you want click-to-chat links (PRD US-012)

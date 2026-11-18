@@ -47,7 +47,7 @@ export const assumed = [
   'Q13 75 - 99% on AWS: confirm you will host mainly on AWS.',
   'Team size and country (Nigeria): confirm, and keep it the same on LinkedIn.',
   'Founder name spelling: "Muhammed" here vs "mohammed" in the LinkedIn URL.',
-  'Business email olawale@klearway.site: confirm the mailbox exists and you can receive the AWS verification email.',
+  'Business email ogunlakin@klearway.site: confirm the mailbox exists and you can receive the AWS verification email.',
 ];
 
 export const linkedin = {
