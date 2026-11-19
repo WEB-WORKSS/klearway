@@ -180,7 +180,7 @@ export function Contact() {
             </div>
             <div>
               <dt className="font-mono text-[0.68rem] uppercase tracking-wider text-ink-400">LinkedIn</dt>
-              <dd className="mt-1"><a href={company.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 font-medium text-tide underline-offset-2 hover:underline"><LinkedinIcon />linkedin.com/company/klearway</a></dd>
+              <dd className="mt-1"><a href={company.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 font-medium text-tide underline-offset-2 hover:underline"><LinkedinIcon />linkedin.com/company/klear-way</a></dd>
             </div>
           </dl>
         </div>

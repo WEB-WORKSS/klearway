@@ -9,7 +9,7 @@ These answers are drawn from the same business record as the website and the Lin
 | Company email | ogunlakin@klearway.site (**confirm** the mailbox is active and use the founder's own account details where the form asks for them) |
 | Founded | 2026 |
 | Founder | Muhammed Ogunlakin, Founder & CEO, https://www.linkedin.com/in/ogunlakin-mohammed/ |
-| Company LinkedIn | https://www.linkedin.com/company/klearway/ |
+| Company LinkedIn | https://www.linkedin.com/company/klear-way/ |
 | Team size | **Verify** before submitting (only the founder has been confirmed) |
 | Funding | None claimed. Answer "self-funded / no institutional funding" only if that is true. |
 | Industry | Software, logistics technology (B2B SaaS) |

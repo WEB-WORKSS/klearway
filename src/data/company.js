@@ -7,7 +7,7 @@ export const company = {
   founded: 2026,
   type: 'Privately held',
   stage: 'MVP in development',
-  linkedin: 'https://www.linkedin.com/company/klearway/',
+  linkedin: 'https://www.linkedin.com/company/klear-way/',
   tagline: 'Shipment document checks and status updates for freight forwarders and clearing agents.',
   positioning:
     'Klearway helps freight forwarding and clearing firms catch disagreements between a shipment’s bill of lading, invoice and packing list before they hold up clearance, and keeps every shipment’s status ready to share with the importer.',

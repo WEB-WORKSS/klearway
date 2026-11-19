@@ -59,7 +59,7 @@ export const linkedin = {
     ['Company type', 'Privately held'],
     ['Founded', '2026'],
     ['Headquarters', 'Leave blank until confirmed'],
-    ['Public URL', 'linkedin.com/company/klearway'],
+    ['Public URL', 'linkedin.com/company/klear-way'],
   ],
   tagline: 'Shipment document checks and status updates for freight forwarders and clearing agents.',
   overview: `Klearway helps freight forwarding and clearing firms catch disagreements between a shipment's documents before they hold up clearance, and keeps every shipment's status ready to share with the importer.

@@ -7,7 +7,7 @@ Every value here comes from the same business record as the website (`src/data/c
 | Field | Value |
 |---|---|
 | Name | Klearway |
-| Public URL | linkedin.com/company/klearway (supplied by the founder as the existing page) |
+| Public URL | linkedin.com/company/klear-way (supplied by the founder as the existing page) |
 | Website | https://www.klearway.site |
 | Industry | Software Development |
 | Company type | Privately held |
