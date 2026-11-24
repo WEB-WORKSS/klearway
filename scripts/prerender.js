@@ -15,7 +15,6 @@ const routes = [
   { url: '/', out: 'index.html' },
   { url: '/privacy', out: 'privacy/index.html' },
   { url: '/terms', out: 'terms/index.html' },
-  { url: '/app', out: 'app/index.html' },
   { url: '/workspace', out: 'workspace/index.html' },
   { url: '/404', out: '404.html' },
 ];

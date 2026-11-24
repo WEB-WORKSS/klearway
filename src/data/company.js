@@ -30,6 +30,5 @@ export const seo = {
   '/privacy': { title: 'Privacy Policy | Klearway', description: 'How Klearway collects, uses and protects personal data from its website, pilot requests and MVP workspace.' },
   '/terms': { title: 'Terms of Service | Klearway', description: 'Terms that govern use of the Klearway website and the Klearway MVP workspace.' },
   '/workspace': { title: 'Workspace | Klearway', description: 'Klearway MVP workspace for pilot firms.', noindex: true },
-  '/app': { title: 'Application kit | Klearway', description: 'Klearway company record, brand assets, LinkedIn profile and AWS Activate answers.', noindex: true },
   '/404': { title: 'Page not found | Klearway', description: 'The page you were looking for does not exist.', noindex: true },
 };

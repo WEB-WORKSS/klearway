@@ -6,7 +6,6 @@ import Home from './pages/Home.jsx';
 import Privacy from './pages/Privacy.jsx';
 import Terms from './pages/Terms.jsx';
 import NotFound from './pages/NotFound.jsx';
-import AppKit from './pages/AppKit.jsx';
 import { WorkspaceLoading } from './components/workspace/WorkspaceLoading.jsx';
 
 // The workspace is code-split so marketing pages stay light.
@@ -20,7 +19,6 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="terms" element={<Terms />} />
-          <Route path="app" element={<AppKit />} />
           <Route path="*" element={<NotFound />} />
         </Route>
         <Route
